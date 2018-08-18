@@ -13,6 +13,7 @@ import io.choerodon.resource.annoation.EnableChoerodonResourceServer;
 @EnableChoerodonResourceServer
 public class DemoServiceApplication {
     public static void main(String[] args){
+        System.out.println("!!!!!");
         SpringApplication.run(DemoServiceApplication.class, args);
     }
 }
