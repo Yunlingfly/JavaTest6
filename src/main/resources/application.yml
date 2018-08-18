@@ -24,10 +24,6 @@ eureka:
     serviceUrl:
       defaultZone: http://register-server.training:8000/eureka/
     registryFetchIntervalSeconds: 10
-mybatis:
-  mapperLocations: classpath*:/mapper/*.xml
-  configuration: # 数据库下划线转驼峰配置
-    mapUnderscoreToCamelCase: true
 hand:
   name: 朱忠颖
   id: 20606
