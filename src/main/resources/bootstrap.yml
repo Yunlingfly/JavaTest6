@@ -10,7 +10,7 @@ spring:
         maxAttempts: 6
         multiplier: 1.5
         maxInterval: 2000
-      uri: localhost:8010
+      uri: config-server.training:8100
       enabled: false
 management:
   port: 18081
