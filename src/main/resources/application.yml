@@ -11,6 +11,8 @@ spring:
     url: jdbc:mysql://ysql.training:3306/anager_serice?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: choerodon
+server:
+  port: 20606
 eureka:
   instance:
     preferIpAddress: true
